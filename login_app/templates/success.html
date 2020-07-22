@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'styles.css' %}">    
+    <!-- CHANGE CSS FILE LOCATION -->
+    <title> Document </title>
+    <style>
+        div {
+            text-align: center;
+            padding: 5em;
+        }
+    </style>
+</head>
+
+<body>
+    <h3><a href="/logout">Logout</a></h3>
+    <div>
+        <h1>Success! Welcome, {{user.first_name}}!</h1>
+        <p>Successlly {{login}}{{register}}!</p>
+    </div>
+</body>
+
+</html>

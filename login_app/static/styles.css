@@ -1,0 +1,42 @@
+.thebod {
+    background-color: rgb(32, 32, 32);
+}
+
+.main_area {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2em;
+}
+
+.sections {
+    width: 50%;
+    margin: 1em 1em 5em 2em;
+    color: white;
+    border: .1em rgba(127, 193, 255, 0.397) solid;
+    -webkit-box-shadow: 13px 13px 7px -9px rgba(0, 0, 0, 0.75);
+    border-radius: .3em;
+    padding: .8em;
+}
+
+.sections2 {
+    width: 50%;
+    margin: 5em 2em 5em 1em;
+    height: 33vh;
+    color: white;
+    border: .1em rgba(112, 174, 255, 0.397) solid;
+    -webkit-box-shadow: 13px 13px 7px -9px rgba(0, 0, 0, 0.75);
+    border-radius: .3em;
+    padding: .8em;
+}
+
+h3 {
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+.messages {
+    color: white;
+    padding: .8em;
+    border: .1em rgba(246, 251, 255, 0.397) solid;
+    text-align: center;
+}
